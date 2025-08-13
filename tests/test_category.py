@@ -17,3 +17,4 @@ class TestCategories:
         main_page.click_categories_button()
         main_page.click_promo_odezhda_link()
         main_page.open_first_product()
+        print('ok')
