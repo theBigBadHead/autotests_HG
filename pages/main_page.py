@@ -57,10 +57,12 @@ class MainPage(BasePage):
         Клик на ссылку "Промо-одежда".
         """
         self.promo_odezhda_link.click()
-        self.check_current_url(re.compile("./catalog/promo_odezhda/"))
+        self.check_current_url(re.compile(".*/catalog/promo_odezhda/"))
 
     def open_first_product(self):
-        """Открытие первого товара из каталога и проверка, что он видим."""
+        """
+        Открытие первого товара из каталога и проверка, что он видим.
+        """
         self.first_product_link.check_visible()
         self.first_product_link.click()
         self.check_current_url(re.compile(r".*/catalog/promo_odezhda/.*"))
