@@ -1,0 +1,11 @@
+INFO     BASE_PAGE:base_page.py:36 Opening the url "AppRoute.ROOT"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking button "Categories"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking link "promo_odezhda"
+INFO     BASE_PAGE:base_page.py:60 Checking that current url matches pattern ".*/catalog/promo_odezhda/"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="component_search-results"]/div/div[1] at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "first_product" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="component_search-results"]/div/div[1] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking link "first_product"
+INFO     BASE_PAGE:base_page.py:60 Checking that current url matches pattern ".*/catalog/promo_odezhda/.*"
