@@ -27,6 +27,20 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps
 
+      - name: Create .env from Secrets
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          HEADLESS: ${{ secrets.HEADLESS }}
+          EXPECT_TIMEOUT: ${{ secrets.EXPECT_TIMEOUT }}
+        run: |
+          cat > .env <<EOF
+          APP_URL=${APP_URL}
+          HEADLESS=${HEADLESS}
+          EXPECT_TIMEOUT=${EXPECT_TIMEOUT}
+          EOF
+          echo ".env created (first 3 lines masked):"
+          grep -E '^(APP_URL|HEADLESS|EXPECT_TIMEOUT)=' .env | sed -E 's/=(.*)$/=***MASKED***/'
+
       - name: Run UI tests with pytest and generate Allure results
         run: |
           pytest -m regression --alluredir=allure-results

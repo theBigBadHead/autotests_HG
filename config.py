@@ -1,4 +1,5 @@
 from typing import Self
+from pathlib import Path
 
 from pydantic import HttpUrl, DirectoryPath
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -19,10 +20,10 @@ class Settings(BaseSettings):
 
     @classmethod
     def initialize(cls) -> Self:
-        videos_dir = DirectoryPath("./videos")
-        tracing_dir = DirectoryPath("./tracing")
+        videos_dir = Path("./videos")
+        tracing_dir = Path("./tracing")
 
-        videos_dir.mkdir(exist_ok=True)
-        tracing_dir.mkdir(exist_ok=True)
+        videos_dir.mkdir(parents=True, exist_ok=True)
+        tracing_dir.mkdir(parents=True, exist_ok=True)
 
-        return Settings(videos_dir=videos_dir, tracing_dir=tracing_dir)
+        return cls(videos_dir=str(videos_dir), tracing_dir=str(tracing_dir))
