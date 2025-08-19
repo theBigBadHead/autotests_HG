@@ -1,0 +1,11 @@
+INFO     BASE_PAGE:base_page.py:36 Opening the url "AppRoute.ROOT"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BUTTON:button.py:37 Checking that button "Кнопка "Каталог"" is enabled
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking button "Кнопка "Каталог""
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that text "Заголовок "Весь ассортимент"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Промо-одежда" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking link "Промо-одежда"

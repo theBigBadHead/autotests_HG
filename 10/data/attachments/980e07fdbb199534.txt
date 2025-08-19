@@ -1,0 +1,153 @@
+INFO     BASE_PAGE:base_page.py:36 Opening the url "AppRoute.ROOT"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BUTTON:button.py:37 Checking that button "Кнопка "Каталог"" is enabled
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking button "Кнопка "Каталог""
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that text "Заголовок "Весь ассортимент"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Промо-одежда" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Промо-одежда" has text "Промо-одежда"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[2]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Зонты" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[2]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Зонты" has text "Зонты"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[3]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Сумки и рюкзаки" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[3]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Сумки и рюкзаки" has text "Сумки и рюкзаки"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[4]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Посуда" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[4]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Посуда" has text "Посуда"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[5]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Упаковка подарочная" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[5]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Упаковка подарочная" has text "Упаковка подарочная"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[6]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Ручки, карандаши и канцтовары" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[6]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Ручки, карандаши и канцтовары" has text "Ручки, карандаши и канцтовары"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[7]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Путешествие и отдых" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[7]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Путешествие и отдых" has text "Путешествие и отдых"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[8]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Уютный дом" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[8]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Уютный дом" has text "Уютный дом"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[9]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Деловые и офисные аксессуары" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[9]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Деловые и офисные аксессуары" has text "Деловые и офисные аксессуары"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[10]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Награды" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[10]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Награды" has text "Награды"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[11]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Электроника" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[11]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Электроника" has text "Электроника"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[12]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подарочные наборы" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[12]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Подарочные наборы" has text "Подарочные наборы"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[13]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Промо-сувениры" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[13]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Промо-сувениры" has text "Промо-сувениры"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[14]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Ежедневники и бизнес-блокноты" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[14]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Ежедневники и бизнес-блокноты" has text "Ежедневники и бизнес-блокноты"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[15]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Дождевики" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[15]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Дождевики" has text "Дождевики"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[16]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Аксессуары для красоты" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[16]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Аксессуары для красоты" has text "Аксессуары для красоты"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[17]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Товары для здоровья" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[17]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Товары для здоровья" has text "Товары для здоровья"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[18]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Аромаподарки" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[18]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Аромаподарки" has text "Аромаподарки"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[19]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Живые подарки" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[19]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Живые подарки" has text "Живые подарки"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[2]/p at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that text "Заголовок "Коллекции и подборки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4181"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Хит" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4181"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Хит" has text "Хит"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4182"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Новинки" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4182"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Новинки" has text "Новинки"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4358"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Custom Merch" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4358"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Custom Merch" has text "Custom Merch"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4294"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Конструктор бейсболок Atlantis" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4294"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Конструктор бейсболок Atlantis" has text "Конструктор бейсболок Atlantis"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4183"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Новый год" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4183"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Новый год" has text "Новый год"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4185"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подарки для мужчин" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4185"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Подарки для мужчин" has text "Подарки для мужчин"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4186"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подарки для женщин" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4186"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Подарки для женщин" has text "Подарки для женщин"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4187"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "BLACK FRIDAY" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4187"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "BLACK FRIDAY" has text "BLACK FRIDAY"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4188"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Теплый текстиль" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4188"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Теплый текстиль" has text "Теплый текстиль"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4347"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Sales " is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4347"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Sales " has text "Sales "
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4354"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Электроника NEW" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4354"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Электроника NEW" has text "Электроника NEW"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4191"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Коллекция SOFT-TOUCH" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4191"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Коллекция SOFT-TOUCH" has text "Коллекция SOFT-TOUCH"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4192"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "ECO-LIFE" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4192"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "ECO-LIFE" has text "ECO-LIFE"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4193"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "SAFE TOUCH" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4193"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "SAFE TOUCH" has text "SAFE TOUCH"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4195"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подарки для детей" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4195"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Подарки для детей" has text "Подарки для детей"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4201"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Коллекция REFLECTIVE" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4201"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Коллекция REFLECTIVE" has text "Коллекция REFLECTIVE"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4220"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Сделано в России" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4220"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:116 Checking that link "Сделано в России" has text "Сделано в России"
