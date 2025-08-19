@@ -4,8 +4,6 @@ from playwright.sync_api import Page
 
 from pages.base_page import BasePage
 from components.header_categories_component import HeaderCategoriesComponent
-from elements.link import Link
-from elements.button import Button
 
 
 class MainPage(BasePage):

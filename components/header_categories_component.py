@@ -15,10 +15,11 @@ class HeaderCategoriesComponent(BaseComponent):
     Содержит методы для открытия меню, получения списка категорий,
     проверки их отображения и перехода в выбранную категорию.
     Ожидает наличие атрибутов:
-      - header-catalog-button
-      - header-categories-mega-menu
-      - header-category-item (повторяющийся)
-      - header-category-icon
+      - catalog_button
+      - categories_title
+      - collections_title
+      - links categories
+      - links collections
     """
 
     def __init__(self, page: Page):
@@ -280,27 +281,33 @@ class HeaderCategoriesComponent(BaseComponent):
     def open(self):
         self.catalog_button.check_enabled()
         self.catalog_button.click()
-        self.categories_title.check_visible()
-        self.collections_title.check_visible()
 
-    @allure.step("Перейти в категорию {name}")
+    @allure.step("Перейти в категорию")
     def go_to_category(self, link: Link):
+        old_url = self.page.url
+        self.categories_title.check_visible()
+        link.check_visible()
         link.click()
-        expect(self.page).to_have_url(lambda url: url != "")
+        expect(self.page).not_to_have_url(old_url)
 
     @allure.step("Перейти в подборку {name}")
     def go_to_collection(self, link: Link):
+        old_url = self.page.url
+        self.collections_title.check_visible()
+        link.check_visible()
         link.click()
-        expect(self.page).to_have_url(lambda url: url != "")
+        expect(self.page).not_to_have_url(old_url)
 
     @allure.step("Проверить все категории")
     def check_all_categories(self):
+        self.categories_title.check_visible()
         for category in self.all_categories:
             category.check_visible()
             category.check_have_text(category.name)
 
     @allure.step("Проверить все подборки")
     def check_all_collections(self):
+        self.collections_title.check_visible()
         for collection in self.all_collections:
             collection.check_visible()
             collection.check_have_text(collection.name)

@@ -16,3 +16,9 @@ class TestCategories:
         main_page.header_categories_component.open()
         main_page.header_categories_component.check_all_categories()
         main_page.header_categories_component.check_all_collections()
+
+    @allure.title("Проверка категории: Промо-одежда")
+    def test_check_category_promo_clothes(self, main_page: MainPage):
+        main_page.visit(AppRoute.ROOT)
+        main_page.header_categories_component.open()
+        main_page.header_categories_component.go_to_category(main_page.header_categories_component.promo_clothes_link)
