@@ -11,10 +11,8 @@ from tools.routes import AppRoute
 @pytest.mark.ui
 class TestCategories:
     @allure.title("Проверка категории 'Промо-одежда' и открытие первой ссылки из категории")
-    def test_check_category_and_open_first_link(self, main_page: MainPage):
+    def test_check_category_and_collections(self, main_page: MainPage):
         main_page.visit(AppRoute.ROOT)
-
-        main_page.click_categories_button()
-        main_page.click_promo_odezhda_link()
-        main_page.open_first_product()
-        print('ok')
+        main_page.header_categories_component.open()
+        main_page.header_categories_component.check_all_categories()
+        main_page.header_categories_component.check_all_collections()
