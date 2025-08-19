@@ -1,0 +1,79 @@
+INFO     BASE_PAGE:base_page.py:36 Opening the url "AppRoute.ROOT"
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="open-catalog"] at index "0"
+INFO     BASE_ELEMENT:base_element.py:87 Clicking button "Кнопка "Каталог""
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that text "Заголовок "Весь ассортимент"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[2]/p at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that text "Заголовок "Коллекции и подборки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Промо-одежда"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[2]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Зонты"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[3]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Сумки и рюкзаки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[4]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Посуда"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[5]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Упаковка подарочная"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[6]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Ручки, карандаши и канцтовары"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[7]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Путешествие и отдых"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[8]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Уютный дом"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[9]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Деловые и офисные аксессуары"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[10]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Награды"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[11]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Электроника"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[12]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Подарочные наборы"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[13]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Промо-сувениры"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[14]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Ежедневники и бизнес-блокноты"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[15]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Дождевики"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[16]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Аксессуары для красоты"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[17]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Товары для здоровья"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[18]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Аромаподарки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="catalog"]/div/div[1]/ul/li[19]/div/div[1]/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Категория "Живые подарки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4181"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Хит"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4182"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Новинки"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4358"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Custom Merch"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4294"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Конструктор бейсболок Atlantis"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4183"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Новый год"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4185"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Подарки для мужчин"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4186"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Подарки для женщин"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4187"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "BLACK FRIDAY"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4188"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Теплый текстиль"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4354"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Sales"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4354"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Электроника NEW"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4191"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Коллекция SOFT-TOUCH"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4192"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "ECO-LIFE"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4193"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "SAFE TOUCH"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4195"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Подарки для детей"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4201"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Коллекция REFLECTIVE"" is visible
+INFO     BASE_ELEMENT:base_element.py:60 Getting locator by XPath: //*[@id="bx_1847241719_4220"]/div/a at index "0"
+INFO     BASE_ELEMENT:base_element.py:101 Checking that link "Подборка "Сделано в России"" is visible

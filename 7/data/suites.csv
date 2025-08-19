@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10257","Проверка наличия всех категорий и коллекций","tests","Tue Aug 19 07:23:42 GMT 2025","passed","Tue Aug 19 07:23:52 GMT 2025","TestCategories","test_category","",""
