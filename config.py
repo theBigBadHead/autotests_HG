@@ -17,6 +17,8 @@ class Settings(BaseSettings):
     videos_dir: DirectoryPath
     tracing_dir: DirectoryPath
     expect_timeout: float
+    width: int
+    height: int
 
     @classmethod
     def initialize(cls) -> Self:
@@ -26,4 +28,9 @@ class Settings(BaseSettings):
         videos_dir.mkdir(parents=True, exist_ok=True)
         tracing_dir.mkdir(parents=True, exist_ok=True)
 
-        return cls(videos_dir=str(videos_dir), tracing_dir=str(tracing_dir))
+        return cls(
+            videos_dir=str(videos_dir),
+            tracing_dir=str(tracing_dir),
+            width = 1920,
+            height = 1080
+        )
