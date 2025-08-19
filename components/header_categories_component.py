@@ -53,184 +53,184 @@ class HeaderCategoriesComponent(BaseComponent):
         self.promo_clothes_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[1]/div/div[1]/a',
-            name='Категория "Промо-одежда"',
+            name='Промо-одежда',
         )
         self.umbrellas_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[2]/div/div[1]/a',
-            name='Категория "Зонты"',
+            name='Зонты',
         )
         self.bags_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[3]/div/div[1]/a',
-            name='Категория "Сумки и рюкзаки"',
+            name='Сумки и рюкзаки',
         )
         self.dishes_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[4]/div/div[1]/a',
-            name='Категория "Посуда"'
+            name='Посуда'
         )
         self.gift_wrap_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[5]/div/a',
-            name='Категория "Упаковка подарочная"',
+            name='Упаковка подарочная',
         )
         self.stationery_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[6]/div/div[1]/a',
-            name='Категория "Ручки, карандаши и канцтовары"',
+            name='Ручки, карандаши и канцтовары',
         )
         self.travel_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[7]/div/div[1]/a',
-            name='Категория "Путешествие и отдых"',
+            name='Путешествие и отдых',
         )
         self.home_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[8]/div/div[1]/a',
-            name='Категория "Уютный дом"',
+            name='Уютный дом',
         )
         self.office_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[9]/div/div[1]/a',
-            name='Категория "Деловые и офисные аксессуары"',
+            name='Деловые и офисные аксессуары',
         )
         self.awards_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[10]/div/div[1]/a',
-            name='Категория "Награды"',
+            name='Награды',
         )
         self.electronics_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[11]/div/div[1]/a',
-            name='Категория "Электроника"',
+            name='Электроника',
         )
         self.gift_sets_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[12]/div/a',
-            name='Категория "Подарочные наборы"',
+            name='Подарочные наборы',
         )
         self.promo_souvenirs_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[13]/div/div[1]/a',
-            name='Категория "Промо-сувениры"',
+            name='Промо-сувениры',
         )
         self.notebooks_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[14]/div/div[1]/a',
-            name='Категория "Ежедневники и бизнес-блокноты"',
+            name='Ежедневники и бизнес-блокноты',
         )
         self.raincoats_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[15]/div/a',
-            name='Категория "Дождевики"',
+            name='Дождевики',
         )
         self.beauty_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[16]/div/a',
-            name='Категория "Аксессуары для красоты"',
+            name='Аксессуары для красоты',
         )
         self.health_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[17]/div/div[1]/a',
-            name='Категория "Товары для здоровья"',
+            name='Товары для здоровья',
         )
         self.aroma_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[18]/div/div[1]/a',
-            name='Категория "Аромаподарки"',
+            name='Аромаподарки',
         )
         self.living_gifts_link = Link(
             page=page,
             locator='//*[@id="catalog"]/div/div[1]/ul/li[19]/div/div[1]/a',
-            name='Категория "Живые подарки"',
+            name='Живые подарки',
         )
 
         # --- Подборки ---
         self.hit_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4181"]/div/a',
-            name='Подборка "Хит"',
+            name='Хит',
         )
         self.new_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4182"]/div/a',
-            name='Подборка "Новинки"',
+            name='Новинки',
         )
         self.custom_merch_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4358"]/div/a',
-            name='Подборка "Custom Merch"',
+            name='Custom Merch',
         )
         self.atlantis_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4294"]/div/a',
-            name='Подборка "Конструктор бейсболок Atlantis"',
+            name='Конструктор бейсболок Atlantis',
         )
         self.new_year_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4183"]/div/a',
-            name='Подборка "Новый год"',
+            name='Новый год',
         )
         self.men_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4185"]/div/a',
-            name='Подборка "Подарки для мужчин"',
+            name='Подарки для мужчин',
         )
         self.women_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4186"]/div/a',
-            name='Подборка "Подарки для женщин"',
+            name='Подарки для женщин',
         )
         self.black_friday_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4187"]/div/a',
-            name='Подборка "BLACK FRIDAY"',
+            name='BLACK FRIDAY',
         )
         self.warm_textile_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4188"]/div/a',
-            name='Подборка "Теплый текстиль"',
+            name='Теплый текстиль',
         )
         self.sales_link = Link(
             page=page,
-            locator='//*[@id="bx_1847241719_4354"]/div/a',
-            name='Подборка "Sales"',
+            locator='//*[@id="bx_1847241719_4347"]/div/a',
+            name='Sales ',
         )
         self.electronics_new_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4354"]/div/a',
-            name='Подборка "Электроника NEW"',
+            name='Электроника NEW',
         )
         self.soft_touch_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4191"]/div/a',
-            name='Подборка "Коллекция SOFT-TOUCH"',
+            name='Коллекция SOFT-TOUCH',
         )
         self.eco_life_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4192"]/div/a',
-            name='Подборка "ECO-LIFE"',
+            name='ECO-LIFE',
         )
         self.safe_touch_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4193"]/div/a',
-            name='Подборка "SAFE TOUCH"',
+            name='SAFE TOUCH',
         )
         self.children_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4195"]/div/a',
-            name='Подборка "Подарки для детей"',
+            name='Подарки для детей',
         )
         self.reflective_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4201"]/div/a',
-            name='Подборка "Коллекция REFLECTIVE"',
+            name='Коллекция REFLECTIVE',
         )
         self.made_in_russia_link = Link(
             page=page,
             locator='//*[@id="bx_1847241719_4220"]/div/a',
-            name='Подборка "Сделано в России"',
+            name='Сделано в России',
         )
 
         # Списки для удобной итерации
@@ -278,6 +278,7 @@ class HeaderCategoriesComponent(BaseComponent):
 
     @allure.step("Открыть меню каталога")
     def open(self):
+        self.catalog_button.check_enabled()
         self.catalog_button.click()
         self.categories_title.check_visible()
         self.collections_title.check_visible()
@@ -296,8 +297,10 @@ class HeaderCategoriesComponent(BaseComponent):
     def check_all_categories(self):
         for category in self.all_categories:
             category.check_visible()
+            category.check_have_text(category.name)
 
     @allure.step("Проверить все подборки")
     def check_all_collections(self):
         for collection in self.all_collections:
             collection.check_visible()
+            collection.check_have_text(collection.name)
