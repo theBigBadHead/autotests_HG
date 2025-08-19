@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14011","Проверка категории 'Промо-одежда' и открытие первой ссылки из категории","tests","Tue Aug 19 07:19:19 GMT 2025","passed","Tue Aug 19 07:19:33 GMT 2025","TestCategories","test_category","",""
